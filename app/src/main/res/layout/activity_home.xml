@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#000000"
+    tools:context=".HomeActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/home_workout"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="15dp"
+        app:cardElevation="10dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#a6b1c3"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/home_workout"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="36sp"
+            android:layout_marginLeft="200sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bangers"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/workout"
+            android:textSize="36sp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bangers"
+            android:textColor="#ffffff"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/gym_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        app:cardBackgroundColor="#a6b1c3"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:src="@drawable/gym_worjout"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/gym"
+            android:textSize="36sp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bangers"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:text="@string/workout"
+            android:textSize="36sp"
+            android:layout_marginLeft="200dp"
+            android:layout_marginTop="120dp"
+            android:textStyle="bold"
+            android:fontFamily="@font/bangers"
+            android:textColor="#ffffff"/>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
+
+</RelativeLayout>

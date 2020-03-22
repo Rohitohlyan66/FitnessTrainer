@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Fitness Trainer</string>
+    <string name="fitness_trainer">Fitness Trainer</string>
+    <string name="home">HOME</string>
+    <string name="workout">WORKOUT</string>
+    <string name="gym">GYM</string>
+</resources>
